@@ -32,9 +32,9 @@ namespace MyFirstProgram
     {
         static void Main(string[] args)
         {
-            int x;
+            int x, num;
             x = 20;
-            int num;
+            
 
             Console.Write("Enter a number: ");
             num = Convert.ToInt32(Console.ReadLine());
@@ -51,7 +51,10 @@ namespace MyFirstProgram
                 Console.WriteLine("You got the corrrect answer!");
             }
 
+            int a = 3;
+            double b = Convert.ToDouble(a);
 
+            Console.WriteLine(b.GetType());
 
             Console.ReadKey();
         }
